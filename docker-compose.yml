@@ -1,0 +1,15 @@
+version: "2"
+services:
+  api-joby:
+    container_name: "api-joby"
+    build:
+      context:  ./api
+      dockerfile: Dockerfile
+    image: springio/gs-spring-boot-docker:lastest
+    ports: 
+      - 8080:8080
+    networks:
+      - spring-cloud-network
+networks:
+  spring-cloud-network:
+    driver: bridge
