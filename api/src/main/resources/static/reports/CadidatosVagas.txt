@@ -1,0 +1,5 @@
+00CANDIDATOS20210110-04-2021 17:07:4701
+01João                                              Insper                        Analista            31Masculino
+01Adriano                                           Insper                        Analista            19Masculino
+01Julia                                             Mackenzie                     Analista            20Feminino
+020000000003
